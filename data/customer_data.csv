@@ -1,0 +1,16 @@
+customer_id,customer_name,industry,annual_revenue,number_of_employees,priority_rating,account_type,location,current_products,product_usage_percent,cross_sell_synergy,last_activity_date,opportunity_stage,opportunity_amount,opportunity_type,competitors
+C001,Edge Communications,Electronics,139000000,1000,Medium,Customer - Direct,Austin, TX, USA,Core Management Platform,100,Collaboration Suite, E,2024-11-19,Closed Won,75000,New Customer,John Deere, Mitsubishi
+C002,Burlington Textiles Corp,Apparel,350000000,9000,High,Customer - Direct,Burlington, NC, USA,Collaboration Suite,85,Advanced Analytics, F,2024-11-19,Closed Won,235000,New Customer,John Deere
+C003,Pyramid Construction Inc.,Construction,950000000,2680,High,Customer - Channel,Paris, France,Advanced Analytics,70,Workflow Automation, G,2024-11-19,Prospecting,10000,Existing Customer - Upgrade,Caterpillar
+C004,Grand Hotels & Resorts,Hospitality,500000000,5600,High,Customer - Direct,Chicago, IL, USA,Reporting Dashboard,65,API Integrations, H,2024-11-19,Closed Won,210000,Existing Customer - Upgrade,Fujitsu
+C005,United Oil & Gas Corp.,Energy,5600000000,145000,High,Customer - Direct,New York, NY, USA,Workflow Automation,60,AI Insights Module, J,2024-11-19,Negotiation/Review,270000,Existing Customer - Upgrade,Caterpillar, Hawkpower
+C006,Green Energy Solutions,Energy,420000000,3200,Medium,Customer - Channel,Houston, TX, USA,API Integrations,45,IoT Monitoring, K,2024-11-20,Qualification,5000,New Customer,Schneider Electric
+C007,Global Retail Inc.,Retail,780000000,12000,High,Customer - Direct,London, UK,AI Insights Module,90,Predictive Analytics, L,2024-11-20,Closed Won,185000,Existing Customer - Upgrade,Amazon, Walmart
+C008,Tech Innovators LLC,Technology,150000000,800,Low,Customer - Direct,San Francisco, CA, USA,IoT Monitoring,55,Cloud Migration, M,2024-11-20,Prospecting,15000,New Customer,IBM
+C009,Metro Health Systems,Healthcare,670000000,4500,High,Customer - Channel,Boston, MA, USA,Predictive Analytics,75,Telehealth Suite, N,2024-11-21,Negotiation/Review,95000,Existing Customer - Upgrade,GE Healthcare, Siemens
+C010,Summit Manufacturing,Manufacturing,890000000,6000,Medium,Customer - Direct,Detroit, MI, USA,Cloud Migration,50,Robotics Automation, P,2024-11-21,Closed Lost,0,New Customer,ABB, Fanuc
+C011,Alpha Financial Services,Finance,1200000000,8500,High,Customer - Direct,Charlotte, NC, USA,Telehealth Suite,80,Blockchain Security, Q,2024-11-21,Closed Won,320000,Existing Customer - Upgrade,Goldman Sachs, JPMorgan
+C012,Precision Tools Corp,Industrial,290000000,2000,Low,Customer - Channel,Berlin, Germany,Robotics Automation,40,Predictive Maintenance, R,2024-11-22,Qualification,8000,New Customer,Bosch
+C013,Oceanic Shipping,Logistics,510000000,3800,Medium,Customer - Direct,Miami, FL, USA,Blockchain Security,65,Supply Chain AI, S,2024-11-22,Prospecting,25000,Existing Customer - Upgrade,Maersk, FedEx
+C014,Stellar Entertainment,Media,230000000,1500,Low,Customer - Channel,Los Angeles, CA, USA,Predictive Maintenance,70,Content Analytics, T,2024-11-23,Closed Won,110000,New Customer,Netflix, Disney
+C015,AgriGrowth Farms,Agriculture,180000000,1200,Medium,Customer - Direct,Des Moines, IA, USA,Supply Chain AI,30,AgriTech Sensors, U,2024-11-23,Negotiation/Review,45000,Existing Customer - Upgrade,Monsanto, Cargill
