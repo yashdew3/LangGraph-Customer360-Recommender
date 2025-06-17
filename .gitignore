@@ -1,0 +1,82 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+.env.*
+
+# Logs and debug
+*.log
+*.out
+*.pid
+*.gz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+coverage.xml
+*.cover
+*.py,cover
+
+# Mypy / Pylint
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# VSCode
+.vscode/
+.code-workspace
+
+# Streamlit
+.streamlit/
+
+# PostgreSQL dumps
+*.sql
+*.dump
+
+# Data outputs / models / CSVs
+*.csv
+*.db
+*.sqlite
+*.pkl
+*.h5
+*.pt
+*.onnx
+
+# Compiled C files
+*.so
+
+# Node (if used in frontend)
+node_modules/
+package-lock.json
+
+# Docker
+*.dockerfile
+Dockerfile
+docker-compose.yml
+__docker__/
+
+# Others (catch-all)
+*.bak
+*.swp
