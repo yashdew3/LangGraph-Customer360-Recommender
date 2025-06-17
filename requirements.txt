@@ -1,0 +1,19 @@
+# Core Web & API
+fastapi
+uvicorn
+# Streamlit frontend
+streamlit
+requests
+# ML & NLP
+transformers
+torch
+pandas
+# PostgreSQL database
+psycopg2
+python-dotenv
+# LangGraph DAG
+langgraph
+# Additional utilities
+langchain
+# For testing
+pytest
