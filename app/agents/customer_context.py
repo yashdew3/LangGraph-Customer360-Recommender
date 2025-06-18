@@ -2,7 +2,7 @@ import pandas as pd
 from app.db import fetch_customer_profile
 import os
 
-# Optional: Hugging Face embedding for customer description
+
 from transformers import AutoTokenizer, AutoModel
 import torch
 
@@ -52,7 +52,7 @@ def get_customer_context(customer_id: str, use_embedding: bool = False) -> dict:
 
     profile = clean_customer_data(row)
 
-    # Optionally add HuggingFace embeddings
+    # Normalize current products
     if use_embedding:
         tokenizer, model = load_hf_model()
         text = f"{profile['industry']} - {profile['current_products']} - {profile['location']}"
