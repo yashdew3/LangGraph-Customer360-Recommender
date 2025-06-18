@@ -1,7 +1,7 @@
 from typing import Dict, List
 from transformers import pipeline
 
-# Optional: HF summarizer
+
 summarizer = pipeline("summarization", model="facebook/bart-large-cnn")
 
 def generate_report(customer_profile: Dict, scored_opportunities: List[Dict]) -> Dict:
@@ -40,7 +40,7 @@ def generate_report(customer_profile: Dict, scored_opportunities: List[Dict]) ->
 
     full_text = intro + analysis + "Recommendations:\n" + "\n".join(recommendations) + conclusion
 
-    # Optional: Summarize for executive view
+
     summary = summarizer(full_text, max_length=120, min_length=60, do_sample=False)[0]['summary_text']
 
     return {
