@@ -1,14 +1,14 @@
 from typing import List, Dict
 from collections import Counter
 
-# Optional HuggingFace similarity for fuzzy SKU/product matching
+
 from transformers import pipeline
 import re
 
 # Threshold for frequent usage
 USAGE_THRESHOLD = 70
 
-# Hugging Face zero-shot classifier (you could use embeddings too)
+# Hugging Face zero-shot classifier to identify product matches
 classifier = pipeline("zero-shot-classification", model="facebook/bart-large-mnli")
 
 def normalize(text: str) -> str:
@@ -34,7 +34,7 @@ def purchase_pattern_analysis(customer_profile: Dict, activity_log: List[Dict]) 
         if not match_found:
             missing_opportunities.append(sku)
 
-    # Optional: Use zero-shot classification to match SKU to known product tags
+
     if missing_opportunities and owned_products:
         enriched = []
         for sku in missing_opportunities:
